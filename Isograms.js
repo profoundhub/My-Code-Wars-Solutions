@@ -11,6 +11,17 @@ isIsogram("Dermatoglyphics")
 
 /* 
 
+
+// - Test Cases -
+isIsogram("Dermatoglyphics")// true );
+isIsogram("isogram")// true );
+isIsogram("aba")// false, "same chars may not be adjacent" );
+isIsogram("moOse")// false, "same chars may not be same case" );
+isIsogram("isIsogram")// false );
+isIsogram("")// true, "an empty string is a valid isogram" );
+
+Results: 
+
 Time: 324ms Passed: 21 Failed: 0
 
 Test Results:
@@ -26,7 +37,7 @@ Test Results:
 ✔ Test Passed: Value == 'true'
  
  Completed in 6ms
- 
+
   More tests
 ✔ Test Passed: Value == true
 ✔ Test Passed: Value == true
