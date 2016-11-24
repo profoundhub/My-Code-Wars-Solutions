@@ -12,8 +12,10 @@ isIsogram("Dermatoglyphics")
 /* 
 
 Time: 324ms Passed: 21 Failed: 0
+
 Test Results:
   Basic tests
+
 ✔ Test Passed: Value == 'true'
 ✔ Test Passed: Value == 'true'
 ✔ Test Passed: Value == 'false'
@@ -22,7 +24,9 @@ Test Results:
 ✔ Test Passed: Value == 'false'
 ✔ Test Passed: Value == 'true'
 ✔ Test Passed: Value == 'true'
+ 
  Completed in 6ms
+ 
   More tests
 ✔ Test Passed: Value == true
 ✔ Test Passed: Value == true
