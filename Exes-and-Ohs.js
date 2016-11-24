@@ -1,15 +1,12 @@
 let XO = (str) => {
-  let result = 0, i = 0;
-  
+  let result = 0, i = 0;  
   for (i = 0; i < str.length; i++) {
     let ox = str[i].toLowerCase();
     if (ox === "o") {        
-      result++;
-    
+      result++;    
     } else if (ox === "x") {          
       result--;
-    }
-  
+    }  
   }
   return result === 0;    
 }
